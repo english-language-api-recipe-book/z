@@ -1,0 +1,25 @@
+title:        English Language API Recipe Book
+url:          http://english-language-api-recipe-book.github.io/z/
+version:      1.1.1
+author:
+  name:       'Kin Lane'
+  email:      'info@apievangelist.com'
+markdown:     rdiscount
+permalink:    pretty
+pygments:     true
+
+permalink: /:categories/:year/:month/:day/:title
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
+
+paginate: 100
+paginate_path: "/news/page:num"
+
+production_url : http://english-language-api-recipe-book.github.io/z/
+
+BASE_PATH : http://english-language-api-recipe-book.github.io/z/
+
+categories_path : /categories.html
+tags_path : /tags.html
+
+github_user: english-language-api-recipe-book
+github_repo: z
